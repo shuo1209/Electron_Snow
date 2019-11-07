@@ -1,0 +1,24 @@
+{
+  "name": "electron_snow",
+  "version": "1.0.0",
+  "description": "桌面版雪花",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-packager . Electron_Snow --win --out ../Electron_Snow --arch=x64 --app-version=0.0.1 --electron-version=6.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuo1209/Electron_Snow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuo1209/Electron_Snow/issues"
+  },
+  "homepage": "https://github.com/shuo1209/Electron_Snow#readme",
+  "devDependencies": {
+    "electron": "^6.1.4"
+  }
+}
