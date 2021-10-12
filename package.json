@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/shuo1209/Electron_Snow#readme",
   "devDependencies": {
-    "electron": "^6.1.4"
+    "electron": "^11.5.0"
   }
 }
